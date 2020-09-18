@@ -1,0 +1,19 @@
+Jonathan Deiss
+Project Deliverable 1 
+IST 263
+
+For my website, I would like to build a website that shows off and reviews all of the rides/attractions at Universal Studios and Islands of Adventure
+in Orlando, Florida. While I don't actually live in Florida, my family travels there almost every year and I have formed some strong opinions about
+which rides are the most fun. I want this site to be something that people can use to see the opinions of someone who has had a lot of experience
+going through these theme parks so that they can know which rides are the most worth waiting on line for. There are quite a few, so I will have to
+split them up into a few different categories on different pages. 
+
+My Pages Plan:
+
+Page 1: home page, tells a little bit about myself and interests, as well as about the parks.
+Page 2: Roller Coasters
+Page 3: Water Rides
+Page 4: Other Rides
+
+I could also add other pages for the new theme park, Volcano Bay, but that is only if I have time. Each page will be split up into a review of each
+ride in its category with my own personal opinion and rating out of 5 or 10. 
