@@ -1,0 +1,136 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+.mainheader {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: orange;
+    font-size: 50px;
+    -webkit-text-stroke-color: darkgoldenrod;
+    -webkit-text-stroke-width: 2px;
+}
+
+.toplinks{
+    background-color: blue;
+    overflow: hidden;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.toplinks a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.toplinks a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.toplinks a:active {
+    background-color: orange;
+    color: black;
+}
+
+.aboutme h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: orange;
+    border: solid blue;
+    border-style: double;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: 32px;
+}
+
+.aboutme p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+    margin: 10px;
+}
+
+.flex-topmain {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.flex-bottomlinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    font-family: "Arial Black", Gadget, sans-serif;
+    flex: 2;
+    font-size: 20px;
+}
+
+.links h2 {
+    color: orange;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.links img {
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.social {
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin: 20px;
+}
+
+.social h2 {
+    color: orange;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.social img {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.univlink {
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin: 20px;
+}
+
+.univlink h2 {
+    color: orange;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.links{
+    overflow: hidden;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.links a {
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.links a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.links a:active {
+    background-color: orange;
+    color: black;
+}
+
+
