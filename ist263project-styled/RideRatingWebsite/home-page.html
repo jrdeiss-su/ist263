@@ -2,43 +2,83 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href = "mainpagestylesheet.css">
     <title>Home Page</title>
 </head>
 <body>
 
     <h1 class = mainheader>Universal Studios: A Fan Review</h1>
-    <div class = toplinks>
-        <a href="rollercoasters.html" style = "color: white;">Roller Coasters</a>
-        <a href="water-rides.html" style = "color: white;">Water Rides</a>
-        <a href="other-rides.html" style = "color: white;">Other Rides</a>
-    </div> 
 
-<div class = flex-topmain>
-        <div>
-            <img src="https://jrdeiss-su.github.io/ist263/ist263project-styled/RideRatingWebsite/website-images/universal-arch.JPG" alt="universal arch" style="width:600px;height:500px;border:2px solid blue">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rollercoasters.html">Roller Coasters</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="water-rides.html">Water Rides</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="other-rides.html">Other Rides</a>
+            </li>
+          </ul>
         </div>
+      </nav>
 
-        <div class = aboutme>
-            <h2>About Me</h2>
-            <p><b>Hi! My name is Jon and I’m an avid fan of theme parks!</b></p>
+        <div class = "jumbotron">
+            <h1 class = "display-4">About Me</h1>
+            <p class = "lead"><b>Hi! My name is Jon and I’m an avid fan of theme parks!</b></p>
+            <hr class = "my-4">
             <p>Ever since I was little, I have always been really invested into the entertainment business, which is probably where my love for Universal Studios came from. I have been visiting Universal Studios Orlando with my family almost every year for the past 6 years, and I consider myself worthy of rating almost every ride in both Universal Studios and Islands of Adventure. I created this website to give readers the opinion of someone who has ridden these rides and I am willing to give my honest opinions about them. While I haven’t been on every single ride in the whole park since some of them I am too big for, I’ve given my opinions on which rides I really like and which ones I think the most time should be spent on.</p>
             <p>Please enjoy exploring the site!</p>
         </div>  
-</div>
-<div class = flex-bottomlinks>
+
+    <div class = flex-bottomlinks>
     <div class = links>
         <h2>Click the links below to get started!</h2>
-        <div>
-            <a href="rollercoasters.html" style="color:blue">Roller Coasters</a>
-            <a href="water-rides.html" style="color:blue">Water Rides</a>
-            <a href="other-rides.html" style="color:blue">Other Rides</a>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-primary" href="rollercoasters.html" role="button">Roller Coasters</a>
+            <a class="btn btn-primary" href="water-rides.html" role="button">Water Rides</a>
+            <a class="btn btn-primary" href="other-rides.html" role="button">Other Rides</a>
         </div>
         <div>
             <img src = "website-images/rollercoaster cartoon.jpg" alt = roller style="width:100px;height:100px;">
             <img src = "website-images/waterslide cartoon.jpg" alt = water style="width:100px;height:100px;">
             <img src = "website-images/other ride cartoon.jpg" alt = other style="width:100px;height:100px;">
         </div>       
+    </div>
+    </div>
+
+    <div id="carousel" class="carousel-slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="website-images/universal-arch.JPG" class="d-block w-100" alt="arch">
+          </div>
+          <div class="carousel-item">
+            <img src="website-images/islands.JPG" class="d-block w-100" alt="islands">
+          </div>
+          <div class="carousel-item">
+            <img src="website-images/universal-globe.JPG" class="d-block w-100" alt="globe">
+          </div>
+          <div class="carousel-item">
+            <img src="website-images/arch-night.JPG" class="d-block w-100" alt="night">
+          </div>
+          <div class="carousel-item">
+            <img src="website-images/over-water.JPG" class="d-block w-100" alt="water">
+          </div>
+          <div class="carousel-item">
+            <img src="website-images/hogwarts.JPG" class="d-block w-100" alt="hogwarts">
+          </div>
+        </div>
     </div>
 
     <div class = social>
@@ -63,6 +103,6 @@
             <img src="website-images/universal.svg" alt="universal logo" style="width:75px;height:75px">
         </div>
     </div>
-</div>
+
 </body>
 </html>

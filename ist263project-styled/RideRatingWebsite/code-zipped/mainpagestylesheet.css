@@ -4,14 +4,10 @@ body {
 }
 .mainheader {
     font-family: "Arial Black", Gadget, sans-serif;
-    color: rgb(255, 145, 0);
-    font-size: 100px;
+    color: orange;
+    font-size: 50px;
     -webkit-text-stroke-color: darkgoldenrod;
     -webkit-text-stroke-width: 2px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-shadow: 2px 2px black;
-    
 }
 
 .toplinks{
@@ -42,6 +38,8 @@ body {
 .aboutme h2 {
     font-family: "Arial Black", Gadget, sans-serif;
     color: orange;
+    border: solid blue;
+    border-style: double;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     font-size: 32px;
@@ -201,64 +199,4 @@ body {
 .homebutton:active {
     position: relative;
     top: 1px;
-}
-
-.carousel-slide {
-    border: solid blue;
-    border-style: double;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 150px;
-    margin-top: 50px;
-}
-
-.jumbotron {
-    background-color: lightblue;
-    text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
-}
-
-.jumbotron h1 {
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: orange;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1px;
-    margin-bottom: 20px;
-}
-
-.navbar-custom {
-    background-color: #47c4f5;
-    font-family: "Arial Black", Gadget, sans-serif;
-}
-
-.other-flexbox h1 {
-    margin-top: 80px;
-    font-size: 100px;
-}
-
-.waterheader {
-    margin-top: 80px;
-    font-size: 100px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: orange;
-    -webkit-text-stroke-color: darkgoldenrod;
-    -webkit-text-stroke-width: 2px;
-}
-
-.rollerheader {
-    margin-top: 80px;
-    font-size: 70px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: orange;
-    -webkit-text-stroke-color: darkgoldenrod;
-    -webkit-text-stroke-width: 2px;
-}
-
-.otherheader {
-    margin-top: 80px;
-    font-size: 100px;
-    font-family: "Arial Black", Gadget, sans-serif;
-    color: orange;
-    -webkit-text-stroke-color: darkgoldenrod;
-    -webkit-text-stroke-width: 2px;
 }
